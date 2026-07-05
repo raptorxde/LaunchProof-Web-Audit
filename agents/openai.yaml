@@ -1,0 +1,4 @@
+interface:
+  display_name: "LaunchProof Web Audit"
+  short_description: "Audit website launch readiness"
+  default_prompt: "Use $launchproof-web-audit to analyze this website project and produce a prioritized launch-readiness checklist."

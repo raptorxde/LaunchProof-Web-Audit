@@ -1,0 +1,44 @@
+{
+  "name": "launchproof-web-audit",
+  "version": "1.0.0",
+  "description": "Cross-agent website launch-readiness audit skill for Codex, Claude Code, Cursor, and generic AI coding agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "launchproof-web-audit": "./bin/launchproof-web-audit.mjs"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "SKILL.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "agents/",
+    ".cursor/",
+    "references/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate-package.mjs",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "ai-skill",
+    "codex",
+    "claude-code",
+    "cursor",
+    "website-audit",
+    "seo",
+    "launch-checklist",
+    "agent-instructions"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
